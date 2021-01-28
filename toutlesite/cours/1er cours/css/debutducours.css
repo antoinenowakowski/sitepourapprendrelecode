@@ -1,0 +1,33 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background-color: #bdf5f9;
+    height: 2500px;
+}
+.first-title {
+    padding-left: 500px;
+    padding-top: 20px;
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.text {
+    padding-left: 13px;
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.imageun {
+    padding-left: 380px;
+    padding-top: 10px;
+}
+.imagetwo {
+    padding-left: 400px;
+    padding-top: 10px;
+}
+video {
+    padding-left: 20px;
+}
+.video {
+    padding-left: 30px;
+}
