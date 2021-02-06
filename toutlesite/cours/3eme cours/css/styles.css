@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background-color: #bdf5f9;
+    height: 2000px; 
+}
+.text {
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.image {
+    padding-left: 13px;
+    padding-top: 10px;
+}
