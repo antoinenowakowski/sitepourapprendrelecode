@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="css/secondstyles.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <h2>
+    <h2 class="title">
         Bien exploiter les images
     </h2>
     <p class="text">
        Dans beaucoup de sites, les médias occupent de plus en plus de place. <br>
        Ces médias, ces images doivent être choisi avec soin et optimisés au mieux pour<br>
-       un chargement rapide sur tous es supports actuels: écran d'ordi, de<br>
+       un chargement rapide sur tous les supports actuels: écran d'ordi, de<br>
        tablette et de tel. Il y a donc un travail important de la part des<br>
        graphistes pour choisir la bonne image, définir ses dimensions en fonction des<br>
        divers supports et déterminer un rapport compression/poids adéquat.<br>
@@ -28,32 +27,42 @@
     </p>
     <br>
     <p class="text">
-        L'élément img <img src="img/img-element00-300x187.png" alt="img" width="100px" height="70px"> est fait pour insérer des images d'illustration directement<br>
+        L'élément img <img src="image/img-element00-300x187.png" alt="img" width="100px" height="70px"> est fait pour insérer des images d'illustration directement<br>
         liées au contenu rédactionnel. D'un point de vue sémantique, cet élément<br>
         n'est pas faite pour appliquer une image de fond à un en-tête ou toute autre<br> 
         zone d'affichage dans la page. 
     </p>
     <br>
+    <h2 class="title">
+        L'attribut src:
+    </h2>
     <p class="text">
-        Le premier attribut quasiment obligatoire est src.<img src="img/element-img-attribut-src-alt-html.png" alt="src">
+        Le premier attribut quasiment obligatoire est src.<img src="image/element-img-attribut-src-alt-html.png" alt="src" id="utilisation">
         Cet attribut permet<br>
         d'idiquer le chemin d'accés à l'image qui doit être affiché. Le chemin d'accès<br>
         s'indique usuellement relativement à la page contenant l'élément img.<br>
         Voici quelque exemples:<br>
-=======
-    <p class="text">
-        Pour ajouter des images à une page, nous utilisons l'élément <code>&lt;img&gt;</code>,l'attribut <code>src</code><br>
-        spécifie l'URL (adresse Web) de l'image et l'attribut <code>alt</code>, le texte qui décrit l'image
     </p>
-    <br>
-    <img src="image/captureseven.PNG" class="image">
+    <img src="image/attribut src.PNG" alt="toute les possibilité avec src" class="image"><br>
+    <h2 class="title">
+        L'attribut alt:
+    </h2>
     <p class="text">
-        Tiens, je te met un lien si tu veux en savoir plus sur src et img.<br><a href="https://devdocs.io/html/element/img" target="_blanlk">Pour en savoir plus sur src et img</a>
+        L'attribut alt permet de renseigner le texte alternatif à l'image, si celle-ci ne<br> 
+        peut être chargée, donc d'affichée. Son utilisation est ainsi quasiment obligatoire.<br>
+        <a href="#utilisation" style="background-color: #bdf5f9; border: #bdf5f9; color: blue;">Voici son utilisation</a><br>
+        Voici le code d'un exemple où l'image ne peut être chargée:
     </p>
-    <br>
+    <img src="image/exemple ou limage ne peut etre chargée.PNG" alt="exemple où l'image ne peut être chargée" class="image">
     <p class="text">
-        Le texte alt de l'attribut sera affiché à la place de l'image si l'image n'est pas disponible.
->>>>>>> c7ddee59ff93a8daa93b43547d72d248ec90c8e5
+        Voici l'affichage obtenue dans Google Chrome:
+    </p>
+    <img src="image/affichage obtenue dans google.PNG" src="affichage obtenue dans google chrome" class="image">
+    <br>
+    <p class="text" style="padding-bottom: 20px;">
+        Nous avons une icône standard de google Chrome qui indique que l'image ne<br>
+        peut être chargée et c'est le texte alternatif qui est bien affiché à la place de<br>
+        l'image.
     </p>
     <a href="5th.html" title="pour aller sur l'autre page">Pour aller sur l'aute page.</a>
 </body>
