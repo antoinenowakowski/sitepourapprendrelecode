@@ -15,3 +15,33 @@ body {
     padding-left: 13px;
     padding-top: 10px;
 }
+div {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.liens {
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: red;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.liens-two {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    padding-left: 25px;
+    padding-top: 18px;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
